@@ -1,5 +1,5 @@
 {
-  "name": "bitmap",
+  "name": "fast-bitmap",
   "version": "1.0.4",
   "description": "大量数字优化存储",
   "main": "jest.config.js",
@@ -25,5 +25,5 @@
   },
   "author": "",
   "license": "ISC",
-  "gitHead": "d69eb6f67c3a0b887334810467857364f5bf89a5"
+  "gitHead": "94882c018fc80a3516277204afe76f0ad60c361c"
 }
