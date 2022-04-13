@@ -1,6 +1,6 @@
 {
   "name": "fast-bitmap",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "大量数字优化存储",
   "main": "jest.config.js",
   "publishConfig": {
