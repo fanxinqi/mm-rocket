@@ -3,6 +3,9 @@
   "version": "1.0.3",
   "description": "大量数字优化存储",
   "main": "jest.config.js",
+  "publishConfig":{
+    "access": "public"
+  },
   "directories": {
     "lib": "lib",
     "test": "test"
