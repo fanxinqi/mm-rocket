@@ -1,9 +1,9 @@
 {
   "name": "bitmap",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "大量数字优化存储",
   "main": "jest.config.js",
-  "publishConfig":{
+  "publishConfig": {
     "access": "public"
   },
   "directories": {
