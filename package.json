@@ -1,6 +1,6 @@
 {
   "name": "mm-rocket",
-  "private": true,
+  "private": false,
   "scripts": {
     "test":"jest"
   }
