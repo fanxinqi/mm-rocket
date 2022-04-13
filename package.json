@@ -1,6 +1,9 @@
 {
   "name": "mm-rocket",
   "private": false,
+  "publishConfig":{
+    "access": "public"
+  },
   "scripts": {
     "test":"jest"
   }
