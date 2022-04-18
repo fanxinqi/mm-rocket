@@ -7,7 +7,14 @@ interface BitItem {
   [index: number | string]: number;
 }
 
-export default class BitMap {
+interface IBitMap {
+  add(num: number): void;
+  remove(num: number): void;
+  exist(num: number): void;
+  getAllNumber(): Array<Number>;
+}
+
+export default class BitMap implements IBitMap {
   private data: BitItem;
 
   constructor(data?: BitItem) {
@@ -30,20 +37,20 @@ export default class BitMap {
     const index = this.getIdx(num);
     const pos = this.getPos(num);
     if (this.data[index] === undefined) this.data[index] = 0;
-    this.data[index] |= Math.pow(2, pos);
+    this.data[index] |= 1 << pos;
   }
 
   public remove(num: number) {
     const index = this.getIdx(num);
     const pos = this.getPos(num);
     if (this.data[index] === undefined) this.data[index] = 0;
-    this.data[index] -= Math.pow(2, pos);
+    this.data[index] -= 1 << pos;
   }
 
   public exist(num: number) {
     const index = this.getIdx(num);
     const pos = this.getPos(num);
-    return !!(this.data[index] && this.data[index] & Math.pow(2, pos));
+    return !!(this.data[index] && this.data[index] & (1 << pos));
   }
 
   public getAllNumber() {
