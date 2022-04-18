@@ -11,10 +11,10 @@
 
 # api
 
-add(num: number): void; 添加一个数
-remove(num: number): void; 删除一个数
-exist(num: number): void; 判断一个数是否存在
-getAllNumber(): Array<Number>; 获取所有的数
+- add(num: number): void; 添加一个数
+- remove(num: number): void; 删除一个数
+- exist(num: number): void; 判断一个数是否存在
+- getAllNumber(): Array<Number>; 获取所有的数
 
 # 使用示例
 
