@@ -35,8 +35,9 @@ describe("performace test", () => {
     console.log("size reduce times:", arrayByteSize / bitmapByteSize);
     expect(arrayByteSize > bitmapByteSize).toBe(true);
   });
+  
   test("exist function performace test", () => {
-    let testMaxNum = 10000;
+    let testMaxNum = 100000000;
     let startTime, endTime;
     const bitmap = new BitMap();
     const array = [];
