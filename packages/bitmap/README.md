@@ -64,5 +64,5 @@ fastBitmap.exit(20001) // false
     bitmap.remove(5555);
     bitmap.exist(1001); // false
     bitmap.exist(5555); // false
-	```
+	
 ````
